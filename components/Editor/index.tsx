@@ -34,7 +34,6 @@ export const Editor: FC = () => {
     switch (props.element.type) {
 
       default:
-        console.log(props)
         return <DefaultText {...props} />
     }
   }, [])
